@@ -2,6 +2,10 @@
 
 GNOME Shell extension that shows network download/upload speed and ping latency in the top bar, with history graphs on click or hover and an on-demand speed test.
 
+| Light | Dark |
+| --- | --- |
+| ![Graph menu in light mode, with speed test result](screenshots/menu-light.png) | ![Graph menu in dark mode, with speed test result](screenshots/menu-dark.png) |
+
 - Top bar label: `↓ 1.2 M/s  ↑ 340 K/s  45 ms`, refreshed every 2 seconds. Other display modes: compact `↓1.2M ↑340K`, download only `↓1.2M`, or an icon only.
 - Hover the label (or click it) to open a menu with 3-minute graphs:
   - **Download**: current speed, average, peak and total received this session, with a dashed average line.
@@ -32,8 +36,13 @@ gnome-extensions enable netmon@harpi
 | | |
 | --- | --- |
 | Device | Lenovo ThinkPad E14 Gen 7 (21SX) |
+| CPU | Intel Core Ultra 7 255H (16 threads) |
+| GPU | Intel Graphics (Arrow Lake-P, integrated) |
+| RAM | 29.8 GiB usable |
 | OS | Ubuntu 26.04.1 LTS, kernel 7.0.0-42-generic |
 | Desktop | GNOME Shell 50.1, Wayland session |
+| Network | Intel Arrow Lake CNVi Wi-Fi (`wlp0s20f3`) |
+| Speed test | `speed.cloudflare.com`, run from the menu |
 
 ## License
 
