@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.netmon"
+          path="/org/gnome/shell/extensions/netmon/">
+
+    <key name="display-mode" type="s">
+      <choices>
+        <choice value="full"/>
+        <choice value="compact"/>
+        <choice value="download"/>
+        <choice value="icon"/>
+      </choices>
+      <default>'full'</default>
+      <summary>How the panel indicator is shown</summary>
+      <description>full = down/up/ping, compact = down/up, download = down only, icon = icon only</description>
+    </key>
+
+    <key name="speedtest-download-mb" type="i">
+      <default>25</default>
+      <range min="5" max="200"/>
+      <summary>Download payload size for the speed test (MB)</summary>
+    </key>
+
+    <key name="speedtest-upload-mb" type="i">
+      <default>10</default>
+      <range min="2" max="100"/>
+      <summary>Upload payload size for the speed test (MB)</summary>
+    </key>
+
+  </schema>
+</schemalist>

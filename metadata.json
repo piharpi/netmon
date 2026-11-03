@@ -1,0 +1,11 @@
+{
+  "uuid": "netmon@harpi",
+  "name": "Network Monitor Mini",
+  "description": "Network download/upload speed and ping latency in the top bar, with history graphs on click or hover, a configurable panel display, and an on-demand Cloudflare speed test.",
+  "shell-version": [
+    "50"
+  ],
+  "version-name": "1.0",
+  "url": "https://github.com/piharpi/netmon",
+  "settings-schema": "org.gnome.shell.extensions.netmon"
+}

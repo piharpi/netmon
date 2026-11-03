@@ -1,0 +1,26 @@
+.netmon-panel-label {
+  font-feature-settings: "tnum";
+  font-size: 0.9em;
+}
+
+.netmon-section {
+  spacing: 4px;
+  padding: 4px 2px;
+}
+
+.netmon-title {
+  font-weight: bold;
+}
+
+.netmon-value {
+  font-feature-settings: "tnum";
+}
+
+.netmon-detail {
+  font-size: 0.85em;
+}
+
+.netmon-graph {
+  width: 280px;
+  height: 56px;
+}
